@@ -11,6 +11,6 @@ end
 def sort_array_char_count(array)
 arr_length = array.map { |x| x.length }
 
-return arr_length.sort
+arr_length.sort
 
 end
