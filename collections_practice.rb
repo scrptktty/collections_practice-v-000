@@ -19,7 +19,7 @@ end
 def swap_elements(array)
   foo = array[1]
   array[1] = array[2]
-  binding.pry
+
   array[2] = foo
 
 end
