@@ -16,7 +16,7 @@ array.sort do |a, b|
   end
 end
 
-def swap_element(array)
+def swap_elements(array)
   foo = array[1]
   array[1] = array[2]
   binding.pry
