@@ -43,7 +43,5 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.each_with_index.collect do |el, index|
-    1 == index ? el : el + "s"    
-  end
+  array.each_with_index.collect { |el, index| 1 == index ? el : el + "s" }
 end
