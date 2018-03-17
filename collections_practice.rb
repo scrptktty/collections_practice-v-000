@@ -14,3 +14,6 @@ arr_length = array.map { |x| x.length }
 arr_length.sort
 
 end
+
+def swap_element(array)
+end
