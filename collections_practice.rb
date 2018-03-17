@@ -43,5 +43,5 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.each_with_index.collect { |el, index| el + "s" unless el == idex[1]}
+  array.each_with_index.collect { |el, index| el + "s" unless index == 1}
 end
