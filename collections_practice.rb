@@ -33,10 +33,10 @@ def kesha_maker(array)
   end
   return array
 end
-#
-# def find_a(array)
-#   array.find
-# end
+
+def find_a(array)
+  array.select {|x| x.starts_with("a") }
+end
 
 def sum_array(array)
   array.inject(0) { |sum, int| sum + int }
