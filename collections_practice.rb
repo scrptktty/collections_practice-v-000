@@ -18,6 +18,6 @@ end
 
 def swap_element(array)
   array.sort do |a, b|
-    array[1] <=> [2]
-  end  
+    array[1] <=> array[2]
+  end
 end
