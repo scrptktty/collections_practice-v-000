@@ -9,7 +9,7 @@ def sort_array_desc(array)
 end
 
 def sort_array_char_count(array)
-arr_length = array.map { |x| x.length + 1}
+arr_length = array.map { |x| x.length }
 
 
 end
