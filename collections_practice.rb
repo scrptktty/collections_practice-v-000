@@ -22,4 +22,6 @@ def swap_elements(array)
 
   array[2] = foo
 
+  return array
+
 end
